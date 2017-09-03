@@ -1,4 +1,4 @@
-FROM stefanzweig/pydev2:latest
+FROM python:2
 MAINTAINER Stefan Zweig <stefan.zweig@gmail.com>
 ADD . /app/rsted
 WORKDIR /app/rsted
