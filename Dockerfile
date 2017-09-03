@@ -4,7 +4,7 @@ ADD . /app/rsted
 WORKDIR /app/rsted
 RUN ls -lr
 RUN pip install -r pip-requirements.txt
-ENTRYPOINT ["application.py"]
+ENTRYPOINT ["python", "application.py"]
 EXPOSE 5000
 
 
